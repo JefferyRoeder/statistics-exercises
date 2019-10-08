@@ -44,7 +44,7 @@ grades[0].quantile(.95)
 grades = stats.norm(3,.3)
 grades.isf(.05)
 
-#2.b
+#2.b 2.69gpa
 #theoretical
 grades.ppf(.15)
 #simulation
@@ -67,7 +67,7 @@ n = 4326
 success = .02
 
 # 13.9% chance
-stats.binom(n,success).sf(97)
+stats.binom(n,success).sf(96)
 
 # simulation
 
